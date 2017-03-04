@@ -62,8 +62,8 @@ resource "aws_cloudfront_distribution" "cloudfront-blog-youyo-info" {
 
     viewer_protocol_policy = "redirect-to-https"
     min_ttl                = 0
-    default_ttl            = 30
-    max_ttl                = 30
+    default_ttl            = 60
+    max_ttl                = 60
   }
 
   # Restrictions
